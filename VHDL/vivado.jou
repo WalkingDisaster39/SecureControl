@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May 21 20:12:32 2020
+# Process ID: 18804
+# Current directory: C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/SecureControl/VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12888 C:\Users\wind\Desktop\Master_Thesis\Text_and_hardware\Hardware\SecureControl\VHDL\project_2.xpr
+# Log file: C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/SecureControl/VHDL/vivado.log
+# Journal file: C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/SecureControl/VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/SecureControl/VHDL/project_2.xpr
+update_compile_order -fileset sources_1
+set_property target_language VHDL [current_project]
+update_ip_catalog
+update_ip_catalog

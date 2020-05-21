@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../EncryptedControl-master/montmult_triple_M.vhd" \
+"../../../../../../EncryptedControl-master/modexp_triple_M.vhd" \
+"../../../../../../EncryptedControl-master/plant_interface.vhd" \
+"../../../../../../EncryptedControl-master/modexp_single_M.vhd" \
+"../../../../../../EncryptedControl-master/controller_inverted_pendulum.vhd" \
+"../../../../../../EncryptedControl-master/montmult_single_M.vhd" \
+"../../../../../../EncryptedControl-master/paillier_inverted_pendulum.vhd" \
+"../../../../../../EncryptedControl-master/paillier_inverted_pendulum_tben.vhd" \
+
+# Do not sort compile order
+nosort

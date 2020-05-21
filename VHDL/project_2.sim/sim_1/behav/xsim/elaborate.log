@@ -1,0 +1,27 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 6eba2e4c5a2a4fedadf174e188706abe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot paillier_inverted_pendulum_tben_behav xil_defaultlib.paillier_inverted_pendulum_tben -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.controller_types
+Compiling package xil_defaultlib.plant_interface_types
+Compiling package xil_defaultlib.modexp_triple_m_types
+Compiling package xil_defaultlib.montmult_types
+Compiling package xil_defaultlib.modexp_single_m_types
+Compiling architecture cios of entity xil_defaultlib.montmult_single_M [\montmult_single_M(m_length=1024...]
+Compiling architecture cios of entity xil_defaultlib.montmult_triple_M [\montmult_triple_M(m_length=1024...]
+Compiling architecture righttoleft of entity xil_defaultlib.modexp_triple_M [\modexp_triple_M(n2_length=1024,...]
+Compiling architecture montencrypter of entity xil_defaultlib.plant_interface [\plant_interface(key_length=512,...]
+Compiling architecture righttoleft of entity xil_defaultlib.modexp_single_M [\modexp_single_M(n2_length=1024,...]
+Compiling architecture montcontroller of entity xil_defaultlib.controller_inverted_pendulum [\controller_inverted_pendulum(ke...]
+Compiling architecture demo of entity xil_defaultlib.paillier_inverted_pendulum [\paillier_inverted_pendulum(key_...]
+Compiling architecture tben of entity xil_defaultlib.paillier_inverted_pendulum_tben
+Built simulation snapshot paillier_inverted_pendulum_tben_behav

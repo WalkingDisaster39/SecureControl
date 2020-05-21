@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May 21 01:26:40 2020
+# Process ID: 6036
+# Current directory: C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Secure_Control/project_2/project_2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Secure_Control/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/paillier_inverted_pendulum_tben_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Secure_Control/project_2/project_2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Secure_Control/project_2/project_2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Secure_Control/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/paillier_inverted_pendulum_tben_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu May 21 01:26:41 2020...

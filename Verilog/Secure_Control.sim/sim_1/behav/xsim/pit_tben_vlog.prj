@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Verilog/My_Verilog/my_controller_inv_pen.v" \
+"../../../../../../Verilog/My_Verilog/my_modexp_single_M.v" \
+"../../../../../../Verilog/My_Verilog/my_modexp_triple_M.v" \
+"../../../../../../Verilog/My_Verilog/my_montmult_single_M.v" \
+"../../../../../../Verilog/My_Verilog/my_montmult_triple_M.v" \
+"../../../../../../Verilog/My_Verilog/my_paillier_inv_pen.v" \
+"../../../../../../Verilog/My_Verilog/my_plant_interface.v" \
+"../../../../../../Verilog/My_Verilog/my_paillier_inverted_pendulum_tben.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

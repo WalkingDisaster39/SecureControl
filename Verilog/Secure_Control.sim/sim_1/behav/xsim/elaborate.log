@@ -1,0 +1,22 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto e0cd7c7ff40549d4a1ab54fe62a6e7bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pit_tben_behav xil_defaultlib.pit_tben xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port M_select [C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Verilog/My_Verilog/my_modexp_triple_M.v:71]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 1 for port my_task [C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Verilog/My_Verilog/my_controller_inv_pen.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/wind/Desktop/Master_Thesis/Text_and_hardware/Hardware/Secure_Control/Secure_Control/Secure_Control.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.montmult_triple_M
+Compiling module xil_defaultlib.montmult_single_M
+Compiling module xil_defaultlib.modexp_triple_M
+Compiling module xil_defaultlib.plant_interface
+Compiling module xil_defaultlib.modexp_single_M
+Compiling module xil_defaultlib.controller_inv_pen
+Compiling module xil_defaultlib.paillier_inverted_pendulum
+Compiling module xil_defaultlib.pit_tben
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pit_tben_behav
